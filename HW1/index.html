@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Akhilesh Pathange - Data Science Student</title>
+  </head>
+  <body>
+    <header>
+      <h1>Data Webpage</h1>
+      <p>
+        Email: arpathange@wm.edu | GitHub:
+        <a href="https://github.com/akhipath03" target="_blank">akhipath03</a>
+      </p>
+    </header>
+
+    <!-- Toolbar -->
+    <nav class="toolbar">
+      <ul>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#data-projects">Data Projects</a></li>
+      </ul>
+    </nav>
+
+    <section id="about-me">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm Akhilesh, a Data Science student at the College of William
+        and Mary. Passionate about turning data into meaningful insights.
+      </p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <p>
+        I am pursuing a B.S in Data Science with a Minor in Mathematics,
+        expecting to graduate in May 2025.
+      </p>
+    </section>
+
+    <section id="data-projects">
+      <h2>Data Projects</h2>
+
+      <article>
+        <h3>Nutrition Insight Mobile App</h3>
+        <p>
+          Developed a React Native mobile app for nutrition analysis. The point
+          of this app was to provide users personalized and detailed information
+          on anything harmful found in their foods nutrition label. I
+          Implemented AWS Cognito for secure user authentication and leveraged
+          AWS Lambda and OpenAI API for intelligent ingredient insights.
+        </p>
+      </article>
+
+      <article>
+        <h3>New Jersey Residential Price Projection System</h3>
+        <p>
+          Created a housing price predictor using Python, Jupyter Notebooks, and
+          TensorFlow. Achieved over 75% accuracy through careful data
+          preprocessing and model tuning.
+        </p>
+      </article>
+
+      <article>
+        <h3>Global Food Systems and Gas Emissions</h3>
+        <p>
+          My final project in my data visualization class aimed to "show the
+          whole story" of global food systems and their contribution to gas
+          emissions.
+        </p>
+        <p>
+          I created an HTML website featuring multiple interactive
+          visualizations using Tableau. The project delved into the relationship
+          between global food systems and gas emissions, presenting the impact
+          at both country and food-specific levels.
+        </p>
+        <p>The visualizations included:</p>
+        <ul>
+          <li>Choropleth map showing greenhouse gas emissions by country.</li>
+          <li>
+            Stacked bar chart highlighting emissions from all stages of food
+            production per food.
+          </li>
+          <li>Bar chart categorizing emissions by food groups.</li>
+        </ul>
+        <p>
+          After formatting and adding an introduction and conclusion for context
+          and main takeaways, I enhanced the user experience with a CSS
+          stylesheet.
+        </p>
+      </article>
+    </section>
+
+    <footer>
+      <p>Feel free to explore my GitHub repositories</p>
+    </footer>
+
+    <script>
+      // Add some interactive features with JavaScript if needed
+      // For example, you can add a smooth scroll effect
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
