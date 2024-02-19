@@ -1,22 +1,25 @@
 body {
   font-family: "Arial", sans-serif;
   margin: 20px;
-  background-color: #f7f7f7;
+  background-color: #f0f0f0;
 }
 
 header {
   background-color: #333;
   color: #fff;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
+  border-radius: 10px;
 }
 
 h1 {
   color: #fff;
+  font-size: 32px;
 }
+
 h2,
 h3 {
-  color: #333;
+  color: #444;
 }
 
 a {
@@ -25,23 +28,23 @@ a {
 }
 
 section {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 footer {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 30px;
   color: #777;
 }
 
 #data-projects article {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 #data-projects article:last-child {
@@ -51,11 +54,12 @@ footer {
 /* Toolbar Styles */
 nav.toolbar {
   background-color: #333;
-  padding: 10px;
+  padding: 15px 0;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 1000;
+  border-bottom: 2px solid #4caf50;
 }
 
 nav.toolbar ul {
@@ -63,15 +67,56 @@ nav.toolbar ul {
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: center;
 }
 
 nav.toolbar li {
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 nav.toolbar a {
   text-decoration: none;
   color: #fff;
-  font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+nav.toolbar a:hover {
+  color: #4caf50;
+}
+
+/* Project Article Styles */
+article {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+article h3 {
+  color: #4caf50;
+  font-size: 24px;
+}
+
+article p {
+  color: #555;
+  line-height: 1.6;
+}
+
+article ul {
+  margin-bottom: 20px;
+}
+
+article li {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+article a {
+  color: #4caf50;
+  transition: all 0.3s ease;
+}
+
+article a:hover {
+  color: #2e7d32;
 }

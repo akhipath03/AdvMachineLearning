@@ -46,20 +46,67 @@
       <article>
         <h3>Nutrition Insight Mobile App</h3>
         <p>
-          Developed a React Native mobile app for nutrition analysis. The point
-          of this app was to provide users personalized and detailed information
-          on anything harmful found in their foods nutrition label. I
-          Implemented AWS Cognito for secure user authentication and leveraged
-          AWS Lambda and OpenAI API for intelligent ingredient insights.
+          Developed an intuitive mobile application with React Native, enabling
+          users to capture ingredient labels via camera or their phone's
+          gallery.
+        </p>
+        <ul>
+          <li>
+            Implemented seamless user authentication through AWS Cognito,
+            providing personalized experiences based on attributes like age,
+            allergies, and health concerns.
+          </li>
+          <li>
+            Utilized AWS Lambda for efficient image uploads and processing,
+            integrating Lambda, S3, and Textract for streamlined image analysis
+            and text extraction.
+          </li>
+          <li>
+            Utilized OpenAI API to dynamically generate personalized and
+            detailed insights about extracted ingredients, ensuring users are
+            informed about potential harmful substances in products.
+          </li>
+        </ul>
+        <p>Technologies used: Node.js, React-Native, AWS, OpenAI API</p>
+        <p>
+          GitHub Repository:
+          <a href="https://github.com/akhipath03/LabelScanner" target="_blank"
+            >Nutrition Insight Mobile App</a
+          >
         </p>
       </article>
 
       <article>
         <h3>New Jersey Residential Price Projection System</h3>
         <p>
-          Created a housing price predictor using Python, Jupyter Notebooks, and
-          TensorFlow. Achieved over 75% accuracy through careful data
-          preprocessing and model tuning.
+          Conducted data cleaning and analysis on over 700k housing instances
+          using Jupyter Notebooks.
+        </p>
+        <ul>
+          <li>
+            Preprocessed data with one-hot encoding for categorical features
+            (e.g., zip codes), data imputation for handling missing values, and
+            MinMaxScaler normalization. Split data for training and validation.
+          </li>
+          <li>
+            Developed Sequential neural network with callbacks specialized Dense
+            and Dropout layers, alongside hyperparameter-tuned Random Forest
+            Regressor.
+          </li>
+          <li>
+            Achieved over 75% accuracy with both models in forecasting property
+            prices.
+          </li>
+        </ul>
+        <p>
+          Technologies used: Python, Jupyter Notebooks, Tensorflow, NumPy,
+          Pandas, Scikit-learn
+        </p>
+        <p>
+          GitHub Repository:
+          <a href="https://github.com/akhipath03/HouseDataProj" target="_blank"
+            >New Jersey Residential Price Projection System</a
+          >
         </p>
       </article>
 
@@ -90,6 +137,67 @@
           and main takeaways, I enhanced the user experience with a CSS
           stylesheet.
         </p>
+        <p>
+          Website:
+          <a
+            href="https://akhipath03.github.io/FoodEmissions.github.io/"
+            target="_blank"
+            >Global Food Systems and Gas Emissions</a
+          >
+        </p>
+      </article>
+
+      <article>
+        <h3>Gradient Boosting Lowess vs eXtreme Gradient Boosting Library</h3>
+        <p>
+          Created a class implementing the Gradient Boosting concept based on
+          the locally weighted regression method (Lowess class), allowing a
+          user-prescribed number of boosting steps. The class includes
+          mainstream useful options such as "fit," "is_fitted," and "predict"
+          methods.
+        </p>
+        <p>
+          Demonstrated applications with real data for regression, 10-fold
+          cross-validations, and compared the effect of different scalers
+          including the "StandardScaler," "MinMaxScaler," and the
+          "QuantileScaler." In the case of the "Concrete" dataset, determined a
+          choice of hyperparameters that yielded lower Mean Squared Errors
+          (MSEs) for the implemented method compared to the eXtreme Gradient
+          Boosting library.
+        </p>
+        <p>Technologies used: Python, NumPy, Pandas, Scikit-learn, xGBoost</p>
+        <p>
+          GitHub Repository:
+          <a
+            href="https://github.com/akhipath03/AdvMachineLearning/tree/main/HW2"
+            target="_blank"
+            >Gradient Boosting Lowess vs eXtreme Gradient Boosting Library</a
+          >
+        </p>
+      </article>
+      <article>
+        <h3>KNN Regressor using USearch Library</h3>
+        <p>
+          Developed a KNN Regressor using the USearch Library in Python. The KNN
+          Regressor is implemented to predict the labels of data points based on
+          the labels of their nearest neighbors. The implementation allows for a
+          user-defined number of nearest neighbors (k).
+        </p>
+        <p>
+          Demonstrated the performance of the KNN Regressor using the iris
+          dataset from the UCI Machine Learning Repository. Preprocessed the
+          data, split it into training and testing sets, and evaluated the
+          model's accuracy across varying values of k.
+        </p>
+        <p>Technologies used: Python, NumPy, Pandas, Scikit-learn, USearch</p>
+        <p>
+          GitHub Repository:
+          <a
+            href="https://github.com/akhipath03/AdvMachineLearning/tree/main/HW2"
+            target="_blank"
+            >KNN Regressor using USearch Library</a
+          >
+        </p>
       </article>
     </section>
 
@@ -103,7 +211,6 @@
       document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
         anchor.addEventListener("click", function (e) {
           e.preventDefault();
-
           document.querySelector(this.getAttribute("href")).scrollIntoView({
             behavior: "smooth",
           });
