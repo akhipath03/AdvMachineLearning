@@ -3,11 +3,10 @@
 This project contains various advanced machine learning techniques and experiments. The project is organized into several subfolders, each containing different topics and methods. Below is an overview of the main sections and their contents.
 
 ## Table of Contents
-1. [LOWESS and KNN Implementation Using Usearch Library](#LOWESS-and-KNN-Implementation-Using-Usearch-Library)
-2. [SCAD, Elastic Net, and Square Root Lasso Comparison](#SCAD,-Elastic-Net,-and-Square-Root-Lasso-Comparison)
-3. [Data Sampling and Classification with FastKDE, SMOTE, and ADASYN](#data-sampling-and-classification-with-fastkde-smote-and-adasyn)
-4. [Advanced ML Regularization Techniques](#advanced-ml-regularization-techniques)
-
+1. [LOWESS and KNN Implementation Using Usearch Library](#lowess-and-knn-implementation-using-usearch-library)
+2. [SCAD, Elastic Net, and Square Root Lasso Comparison](#scad-elastic-net-and-square-root-lasso-comparison)
+3. [CNN Optimization with Particle Swarm Optimization](#cnn-optimization-with-particle-swarm-optimization)
+4. [Data Sampling and Classification with FastKDE, SMOTE, and ADASYN](#data-sampling-and-classification-with-fastkde-smote-and-adasyn)
 
 
 ## 1. LOWESS and KNN Implementation Using Usearch Library
