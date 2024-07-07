@@ -6,11 +6,11 @@ This project contains various advanced machine learning techniques and experimen
 
 1. **[LOWESS and KNN Implementation Using Usearch Library](https://github.com/akhipath03/AdvMachineLearning/tree/main/HW2)**: This section implements and compares various machine learning algorithms for regression and classification tasks. It includes custom implementations of LOWESS (Locally Weighted Scatterplot Smoothing), Gradient Boosting, and K-Nearest Neighbors, as well as comparisons with XGBoost.
 
-2. **SCAD, Elastic Net, and Square Root Lasso Comparison**: This section implements and compares various regularization techniques in machine learning, focusing on SCAD (Smoothly Clipped Absolute Deviation), Elastic Net, and Square Root Lasso. It includes custom PyTorch implementations of these methods and a comparison of their performance on simulated data with a strong correlation structure.
+2. **[SCAD, Elastic Net, and Square Root Lasso Comparison](https://github.com/akhipath03/AdvMachineLearning/tree/main/HW3)**: This section implements and compares various regularization techniques in machine learning, focusing on SCAD (Smoothly Clipped Absolute Deviation), Elastic Net, and Square Root Lasso. It includes custom PyTorch implementations of these methods and a comparison of their performance on simulated data with a strong correlation structure.
 
-3. **CNN Optimization with Particle Swarm Optimization**: This section implements a Convolutional Neural Network (CNN) for image classification on the CIFAR-10 dataset and uses Particle Swarm Optimization (PSO) to find optimal hyperparameters for the network architecture.
+3. **[CNN Optimization with Particle Swarm Optimization](https://github.com/akhipath03/AdvMachineLearning/tree/main/HW4)**: This section implements a Convolutional Neural Network (CNN) for image classification on the CIFAR-10 dataset and uses Particle Swarm Optimization (PSO) to find optimal hyperparameters for the network architecture.
 
-4. **Data Sampling and Classification with FastKDE, SMOTE, and ADASYN**: This section demonstrates data sampling techniques using FastKDE, SMOTE, and ADASYN, and tests the effectiveness of these techniques on a K-Nearest Neighbors (KNN) classifier.
+4. **[Data Sampling and Classification with FastKDE, SMOTE, and ADASYN](https://github.com/akhipath03/AdvMachineLearning/tree/main/HW5)**: This section demonstrates data sampling techniques using FastKDE, SMOTE, and ADASYN, and tests the effectiveness of these techniques on a K-Nearest Neighbors (KNN) classifier.
 
 ---
 
