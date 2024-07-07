@@ -1,4 +1,4 @@
-# Advanced Machine Learning Project
+# LOWESS and KNN Implementation Using Usearch Library
 
 This project implements and compares various machine learning algorithms for regression and classification tasks. It includes custom implementations of LOWESS (Locally Weighted Scatterplot Smoothing), Gradient Boosting, and K-Nearest Neighbors, as well as comparisons with XGBoost.
 
