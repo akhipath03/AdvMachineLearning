@@ -6,7 +6,6 @@ This project implements and compares various machine learning algorithms for reg
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
 - [Algorithms](#algorithms)
 - [Results](#results)
 
@@ -32,19 +31,7 @@ This project implements and compares various machine learning algorithms for reg
 To run the project:
 
 1. Ensure you have the `concrete.csv` dataset in the project directory.
-2. Run the main script:
-   ```
-   python main.py
-   ```
-
-## Project Structure
-
-- `main.py`: The main script that runs all experiments
-- `lowess.py`: Implementation of LOWESS algorithm
-- `gradient_boosting.py`: Implementation of Gradient Boosting with LOWESS
-- `knn.py`: Implementation of K-Nearest Neighbors
-- `concrete.csv`: Dataset for regression task
-- `README.md`: This file
+2. Run the notebook
 
 ## Algorithms
 
