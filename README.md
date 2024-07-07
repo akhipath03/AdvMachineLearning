@@ -48,7 +48,7 @@ This project implements and compares various machine learning algorithms for reg
 To run the project:
 
 1. Ensure you have the `concrete.csv` dataset in the project directory.
-2. Run the notebook
+2. Run the notebook.
 
 ## Algorithms
 
@@ -118,7 +118,7 @@ This project implements and compares various regularization techniques in machin
 To run the project:
 
 1. Ensure you have all required packages installed.
-2. Run the notebook
+2. Run the notebook.
 
 This script will:
 - Generate correlated data
@@ -198,7 +198,7 @@ The optimization process aims to maximize the validation accuracy on the CIFAR-1
 To run the project:
 
 1. Ensure you have all required packages installed.
-2. Run the notebook
+2. Run the notebook.
 
 This script will:
 - Define the CNN model
@@ -226,16 +226,20 @@ This indicates that the best model found has 3 convolutional layers and 128 neur
 
 
 
-
-
-
-
-
 ## 4. Data Sampling and Classification with FastKDE, SMOTE, and ADASYN
 
 This project demonstrates data sampling techniques using FastKDE, SMOTE, and ADASYN, and tests the effectiveness of these techniques on a K-Nearest Neighbors (KNN) classifier.
 
-## Libraries Used
+## Table of Contents
+- Requirements
+- Installation
+- Project Overview
+- Custom FastKDE Sampling Function
+- Usage
+- Results
+- Conclusion
+
+### Requirements
 
 - scikit-learn-intelex
 - numpy
@@ -244,59 +248,38 @@ This project demonstrates data sampling techniques using FastKDE, SMOTE, and ADA
 
 ### Installation
 
-```bash
+```
 !pip install -q scikit-learn-intelex
 !pip install numpy usearch
 !pip install -q fastKDE
 ```
 
-### Imports
+### Project Overview
 
-```python
-import numpy as np
-import matplotlib.pyplot as plt
-from sklearn.datasets import make_classification
-from sklearn.model_selection import train_test_split, cross_val_score
-from sklearn.preprocessing import StandardScaler
-from usearch.index import search, MetricKind
-from imblearn.over_sampling import SMOTE, ADASYN
-from collections import Counter
-import fastkde
-```
+1. **Creating FastKDE Function and Showing Sampling**: We start by creating a custom sampling function using the `fastkde` library. This function helps us understand and visualize the sampling process.
 
-## Project Overview
+2. **Creating Dataset and Sampling Data with SMOTE, ADASYN, and FastKDE**: We generate a synthetic dataset using `make_classification` from `scikit-learn`. The dataset is then sampled using three different techniques:
+   - **SMOTE (Synthetic Minority Over-sampling Technique)**
+   - **ADASYN (Adaptive Synthetic Sampling)**
+   - **FastKDE (Kernel Density Estimation)**
 
-### 1. Creating FastKDE Function and Showing Sampling
+3. **Testing Data Sampling on KNN Classifier**: To evaluate the effectiveness of the sampling techniques, we train a K-Nearest Neighbors (KNN) classifier on the original and sampled datasets. Cross-validation scores are used to compare the performance of each sampling method.
 
-We start by creating a custom sampling function using the `fastkde` library. This function helps us understand and visualize the sampling process.
-
-### 2. Creating Dataset and Sampling Data with SMOTE, ADASYN, and FastKDE
-
-We generate a synthetic dataset using `make_classification` from `scikit-learn`. The dataset is then sampled using three different techniques:
-- **SMOTE (Synthetic Minority Over-sampling Technique)**
-- **ADASYN (Adaptive Synthetic Sampling)**
-- **FastKDE (Kernel Density Estimation)**
-
-### 3. Testing Data Sampling on KNN Classifier
-
-To evaluate the effectiveness of the sampling techniques, we train a K-Nearest Neighbors (KNN) classifier on the original and sampled datasets. Cross-validation scores are used to compare the performance of each sampling method.
-
-## Custom FastKDE Sampling Function
+### Custom FastKDE Sampling Function
 
 The custom sampling function was created using the `fastkde` library to enhance the data distribution and improve classifier performance.
 
-## Usage
+### Usage
 
-1. Install the required libraries
-2. Run the notebook
+1. Install the required libraries.
+2. Run the notebook.
 
-## Results
+### Results
 
 The project provides a detailed comparison of different sampling techniques and their impact on the KNN classifier performance. The results are visualized using matplotlib.
 
-## Conclusion
+### Conclusion
 
 This project highlights the importance of data sampling in machine learning, especially for imbalanced datasets. By leveraging advanced sampling techniques like FastKDE, we can significantly improve the performance of machine learning models.
 
 ---
-
