@@ -1,12 +1,18 @@
 # Advanced Machine Learning
 
-This project contains various advanced machine learning techniques and experiments. The project is organized into several subfolders, each containing different topics and methods. Below is an overview of the main sections and their contents.
+This project contains various advanced machine learning techniques and experiments. The project is organized into several sections, each focusing on different topics and methods. Below is an overview of the main sections and their contents.
 
-## Table of Contents
-1. [LOWESS and KNN Implementation Using Usearch Library](#lowess-and-knn-implementation-using-usearch-library)
-2. [SCAD, Elastic Net, and Square Root Lasso Comparison](#scad-elastic-net-and-square-root-lasso-comparison)
-3. [CNN Optimization with Particle Swarm Optimization](#cnn-optimization-with-particle-swarm-optimization)
-4. [Data Sampling and Classification with FastKDE, SMOTE, and ADASYN](#data-sampling-and-classification-with-fastkde-smote-and-adasyn)
+## Overview
+
+1. **LOWESS and KNN Implementation Using Usearch Library**: This section implements and compares various machine learning algorithms for regression and classification tasks. It includes custom implementations of LOWESS (Locally Weighted Scatterplot Smoothing), Gradient Boosting, and K-Nearest Neighbors, as well as comparisons with XGBoost.
+
+2. **SCAD, Elastic Net, and Square Root Lasso Comparison**: This section implements and compares various regularization techniques in machine learning, focusing on SCAD (Smoothly Clipped Absolute Deviation), Elastic Net, and Square Root Lasso. It includes custom PyTorch implementations of these methods and a comparison of their performance on simulated data with a strong correlation structure.
+
+3. **CNN Optimization with Particle Swarm Optimization**: This section implements a Convolutional Neural Network (CNN) for image classification on the CIFAR-10 dataset and uses Particle Swarm Optimization (PSO) to find optimal hyperparameters for the network architecture.
+
+4. **Data Sampling and Classification with FastKDE, SMOTE, and ADASYN**: This section demonstrates data sampling techniques using FastKDE, SMOTE, and ADASYN, and tests the effectiveness of these techniques on a K-Nearest Neighbors (KNN) classifier.
+
+---
 
 
 ## 1. LOWESS and KNN Implementation Using Usearch Library
@@ -14,11 +20,11 @@ This project contains various advanced machine learning techniques and experimen
 This project implements and compares various machine learning algorithms for regression and classification tasks. It includes custom implementations of LOWESS (Locally Weighted Scatterplot Smoothing), Gradient Boosting, and K-Nearest Neighbors, as well as comparisons with XGBoost.
 
 ## Table of Contents
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Algorithms](#algorithms)
-- [Results](#results)
+- Requirements
+- Installation
+- Usage
+- Algorithms
+- Results
 
 ## Requirements
 
@@ -76,11 +82,11 @@ Detailed results and visualizations are generated when running the main script.
 This project implements and compares various regularization techniques in machine learning, focusing on SCAD (Smoothly Clipped Absolute Deviation), Elastic Net, and Square Root Lasso. It includes custom PyTorch implementations of these methods and a comparison of their performance on simulated data with a strong correlation structure.
 
 ## Table of Contents
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Implemented Methods](#implemented-methods)
-- [Usage](#usage)
-- [Results](#results)
+- Requirements
+- Installation
+- Implemented Methods
+- Usage
+- Results
 
 ## Requirements
 
@@ -148,12 +154,12 @@ The results demonstrate how each method handles feature selection and coefficien
 This project implements a Convolutional Neural Network (CNN) for image classification on the CIFAR-10 dataset and uses Particle Swarm Optimization (PSO) to find optimal hyperparameters for the network architecture.
 
 ## Table of Contents
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Model Architecture](#model-architecture)
-- [Hyperparameter Optimization](#hyperparameter-optimization)
-- [Usage](#usage)
-- [Results](#results)
+- Requirements
+- Installation
+- Model Architecture
+- Hyperparameter Optimization
+- Usage
+- Results
 
 ## Requirements
 
@@ -231,10 +237,10 @@ This project demonstrates data sampling techniques using FastKDE, SMOTE, and ADA
 
 ## Libraries Used
 
-- [scikit-learn-intelex](https://github.com/intel/scikit-learn-intelex)
-- [numpy](https://numpy.org/)
-- [usearch](https://usearch.readthedocs.io/en/latest/)
-- [fastKDE](https://pypi.org/project/fastKDE/)
+- scikit-learn-intelex
+- numpy
+- usearch
+- fastKDE
 
 ### Installation
 
