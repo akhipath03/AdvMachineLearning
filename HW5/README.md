@@ -65,4 +65,5 @@ The project provides a detailed comparison of different sampling techniques and 
 ## Conclusion
 
 This project highlights the importance of data sampling in machine learning, especially for imbalanced datasets. By leveraging advanced sampling techniques like FastKDE, we can significantly improve the performance of machine learning models.
+
 ---
