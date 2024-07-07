@@ -4,7 +4,7 @@ This project contains various advanced machine learning techniques and experimen
 
 ## Overview
 
-1. **LOWESS and KNN Implementation Using Usearch Library**: This section implements and compares various machine learning algorithms for regression and classification tasks. It includes custom implementations of LOWESS (Locally Weighted Scatterplot Smoothing), Gradient Boosting, and K-Nearest Neighbors, as well as comparisons with XGBoost.
+1. **[LOWESS and KNN Implementation Using Usearch Library](https://github.com/akhipath03/AdvMachineLearning/tree/main/HW2)**: This section implements and compares various machine learning algorithms for regression and classification tasks. It includes custom implementations of LOWESS (Locally Weighted Scatterplot Smoothing), Gradient Boosting, and K-Nearest Neighbors, as well as comparisons with XGBoost.
 
 2. **SCAD, Elastic Net, and Square Root Lasso Comparison**: This section implements and compares various regularization techniques in machine learning, focusing on SCAD (Smoothly Clipped Absolute Deviation), Elastic Net, and Square Root Lasso. It includes custom PyTorch implementations of these methods and a comparison of their performance on simulated data with a strong correlation structure.
 
